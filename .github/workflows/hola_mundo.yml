@@ -6,10 +6,10 @@ on:
       - aprendiendo-github-actions
     paths:
       - '**.py'
+      - '**.yaml'
   schedule:
     - cron: '30 5, 17 * * *'
-  check_suite:
-    types: [completed]
+
 jobs:
   hola-mundo:
     runs-on: ubuntu-latest
