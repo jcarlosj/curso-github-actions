@@ -8,7 +8,7 @@ on:
       - '**.py'
       - '**.yaml'
   schedule:
-    - cron: '30 5, 17 * * *'
+    - cron: '30 5,17 * * *'
 
 jobs:
   hola-mundo:
