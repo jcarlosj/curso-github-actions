@@ -1,15 +1,6 @@
 name: Aprendiendo GitHub Actions & Triggering Workflows
 run-name: ¡Estoy aprendiendo GitHub Actions + Triggering Workflows!
-on: 
-  push:
-    branches:
-      - aprendiendo-github-actions
-    paths:
-      - '**.py'
-      - '**.yaml'
-  schedule:
-    - cron: '30 5,17 * * *'
-
+on: [push]
 jobs:
   hola-mundo:
     runs-on: ubuntu-latest
