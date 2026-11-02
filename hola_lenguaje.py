@@ -1,8 +1,9 @@
 import os
 
 def main():
-    nombre = os.getenv("USERNAME", "Desconocido")
-    lenguaje = os.getenv("LANGUAGE", "Desconocido")
+    # Si os.getenv devuelve None o texto vacío, usa un valor de respaldo
+    nombre = os.getenv("USERNAME") or "Desconocido"
+    lenguaje = os.getenv("LANGUAGE") or "Python"
     
     print(f"¡Hola, {nombre}! Tu lenguaje favorito es {lenguaje}.")
 
