@@ -1,5 +1,5 @@
-name: Aprendiendo GitHub Actions & Triggering Workflows
-run-name: ¡Estoy aprendiendo GitHub Actions + Triggering Workflows!
+name: Aprendiendo GitHub Actions
+run-name: ¡Estoy aprendiendo GitHub Actions!
 on: [push]
 jobs:
   hola-mundo:
